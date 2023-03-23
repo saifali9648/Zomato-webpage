@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Merriweather', serif;
-    background-color: #f9fafc;
+    background-color: #ebf2ff;
 }
 .navbar {
     display: flex;
@@ -30,6 +30,15 @@ body {
 .nav__item:hover {
     border: 2px solid #ff6767;
     cursor: pointer;
+}
+.container {
+    padding: 20px;
+}
+.hero__image__container {
+    width: 500px;
+}
+.hero__image {
+    width: 65%;
 }
 @media (min-width:768px) {
     .navbar {
