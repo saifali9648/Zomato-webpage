@@ -59,6 +59,11 @@ body {
         justify-content: space-between;
         padding: 10px 30px;
     }
+    .hero__container {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
 }
 @media (min-width:1024px) {
     .navbar__brand {
